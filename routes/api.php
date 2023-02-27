@@ -18,3 +18,5 @@ use Illuminate\Support\Facades\Route;
 Route::post('/create-ticket', [TicketController::class, 'create']);
 
 Route::get('/ticket', [TicketController::class, 'show']);
+Route::get('/ticket', [TicketController::class, 'show']);
+Route::get('/ticket', [TicketController::class, 'show']);
